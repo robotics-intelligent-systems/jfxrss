@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:nattable="http://www.eclipse.org/papyrus/nattable/model" xmlns:nattableaxis="http://www.eclipse.org/papyrus/nattable/model/table/nattableaxis" xmlns:nattableaxisconfiguration="http://www.eclipse.org/papyrus/nattable/model/table/nattableaxisconfiguration" xmlns:nattableaxisprovider="http://www.eclipse.org/papyrus/nattable/model/table/nattableaxisprovider" xmlns:nattablecelleditor="http://www.eclipse.org/papyrus/nattable/model/table/nattablecelleditor" xmlns:nattableconfiguration="http://www.eclipse.org/papyrus/nattable/model/nattableconfiguration" xmlns:nattablestyle="http://www.eclipse.org/papyrus/nattable/model/table/nattablestyle" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/nattable/model/table/nattableaxis http://www.eclipse.org/papyrus/nattable/model#//nattableaxis http://www.eclipse.org/papyrus/nattable/model/table/nattableaxisconfiguration http://www.eclipse.org/papyrus/nattable/model#//nattableaxisconfiguration http://www.eclipse.org/papyrus/nattable/model/table/nattableaxisprovider http://www.eclipse.org/papyrus/nattable/model#//nattableaxisprovider http://www.eclipse.org/papyrus/nattable/model/table/nattablecelleditor http://www.eclipse.org/papyrus/nattable/model#//nattablecelleditor http://www.eclipse.org/papyrus/nattable/model/nattableconfiguration http://www.eclipse.org/papyrus/nattable/model#//nattableconfiguration http://www.eclipse.org/papyrus/nattable/model/table/nattablestyle http://www.eclipse.org/papyrus/nattable/model#//nattablestyle">
+  <notation:Diagram xmi:id="_g1Vm0EujEfCQ3Ovps5CkfA" type="PapyrusUMLComponentDiagram" name="Component Diagram" measurementUnit="Pixel">
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_g1Vm0UujEfCQ3Ovps5CkfA" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_g1Vm0kujEfCQ3Ovps5CkfA"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_g1Vm00ujEfCQ3Ovps5CkfA" diagramKindId="org.eclipse.papyrus.uml.diagram.component.root.package">
+      <owner xmi:type="uml:Model" href="robotic-surgery-system.uml#_gzS_cEujEfCQ3Ovps5CkfA"/>
+    </styles>
+    <element xmi:type="uml:Model" href="robotic-surgery-system.uml#_gzS_cEujEfCQ3Ovps5CkfA"/>
+  </notation:Diagram>
+  <nattable:Table xmi:id="_g1kQUEujEfCQ3Ovps5CkfA" name="Relationship Generic Matrix" currentRowAxisProvider="_g1kQU0ujEfCQ3Ovps5CkfA" currentColumnAxisProvider="_g1kQUkujEfCQ3Ovps5CkfA" tableKindId="org.eclipse.papyrus.uml.table.matrix">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_g1nToEujEfCQ3Ovps5CkfA" source="http://www.eclipse.org/papyrus/infra/nattable/version">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_g1n6sEujEfCQ3Ovps5CkfA" key="version" value="1.3.0"/>
+    </eAnnotations>
+    <styles xmi:type="nattablestyle:IntListValueStyle" xmi:id="_g1kQUUujEfCQ3Ovps5CkfA" name="hiddenCategoriesByDepth">
+      <intListValue>1</intListValue>
+    </styles>
+    <context xmi:type="uml:Model" href="robotic-surgery-system.uml#_gzS_cEujEfCQ3Ovps5CkfA"/>
+    <owner xmi:type="uml:Model" href="robotic-surgery-system.uml#_gzS_cEujEfCQ3Ovps5CkfA"/>
+    <tableConfiguration xmi:type="nattableconfiguration:TableConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.matrix/configs/generic_matrix_of_relationships.nattableconfiguration#UMLGenericMatrixOfRelationships_XMI_ID"/>
+    <columnAxisProvidersHistory xmi:type="nattableaxisprovider:MasterObjectAxisProvider" xmi:id="_g1kQUkujEfCQ3Ovps5CkfA" description="This axis provider manages the columns, according to the wanted hierarchy" name="HierarchicalColumnsAxisManager" disconnectSlave="true"/>
+    <rowAxisProvidersHistory xmi:type="nattableaxisprovider:MasterObjectAxisProvider" xmi:id="_g1kQU0ujEfCQ3Ovps5CkfA" description="This axis provider manages the rows, according to the wanted hierarchy" name="HierarchicalRowAxisManager" disconnectSlave="true"/>
+    <ownedCellEditorConfigurations xmi:type="nattablecelleditor:GenericRelationshipMatrixCellEditorConfiguration" xmi:id="_g1kQVEujEfCQ3Ovps5CkfA" cellEditorId="GenericRelationshipMatrixEditorConfiguration"/>
+  </nattable:Table>
+  <notation:Diagram xmi:id="_g3HvgEujEfCQ3Ovps5CkfA" type="PapyrusUMLInteractionOverviewDiagram" name="Interaction Overview Diagram" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_g3HvgUujEfCQ3Ovps5CkfA" type="Activity_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_g3HvgkujEfCQ3Ovps5CkfA" type="Activity_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_g3Hvg0ujEfCQ3Ovps5CkfA" type="Activity_KeywordLabel"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_g3HvhEujEfCQ3Ovps5CkfA" type="Activity_ParameterCompartment">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_g3HvhUujEfCQ3Ovps5CkfA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_g3HvhkujEfCQ3Ovps5CkfA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_g3Hvh0ujEfCQ3Ovps5CkfA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_g3HviEujEfCQ3Ovps5CkfA" type="Activity_PreconditionCompartment">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_g3HviUujEfCQ3Ovps5CkfA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_g3HvikujEfCQ3Ovps5CkfA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_g3Hvi0ujEfCQ3Ovps5CkfA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_g3HvjEujEfCQ3Ovps5CkfA" type="Activity_PostconditionCompartment">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_g3HvjUujEfCQ3Ovps5CkfA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_g3HvjkujEfCQ3Ovps5CkfA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_g3Hvj0ujEfCQ3Ovps5CkfA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_g3HvkEujEfCQ3Ovps5CkfA" type="Activity_ActivityNodeCompartment">
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_g3HvkUujEfCQ3Ovps5CkfA"/>
+      </children>
+      <element xmi:type="uml:Activity" href="robotic-surgery-system.uml#_g2SpEEujEfCQ3Ovps5CkfA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_g3HvkkujEfCQ3Ovps5CkfA"/>
+    </children>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_g3Hvk0ujEfCQ3Ovps5CkfA" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_g3HvlEujEfCQ3Ovps5CkfA"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_g3HvlUujEfCQ3Ovps5CkfA" diagramKindId="org.eclipse.papyrus.uml.diagram.interactionOverview">
+      <owner xmi:type="uml:Model" href="robotic-surgery-system.uml#_gzS_cEujEfCQ3Ovps5CkfA"/>
+    </styles>
+    <element xmi:type="uml:Activity" href="robotic-surgery-system.uml#_g2SpEEujEfCQ3Ovps5CkfA"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_g3dtwEujEfCQ3Ovps5CkfA" type="PapyrusUMLSequenceDiagram" name="Sequence Diagram" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_g3dtwUujEfCQ3Ovps5CkfA" type="Interaction_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_g3dtwkujEfCQ3Ovps5CkfA" type="Interaction_NameLabel"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_g3dtw0ujEfCQ3Ovps5CkfA" type="Interaction_SubfragmentCompartment">
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_g3dtxEujEfCQ3Ovps5CkfA"/>
+      </children>
+      <element xmi:type="uml:Interaction" href="robotic-surgery-system.uml#_g3T8wEujEfCQ3Ovps5CkfA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_g3dtxUujEfCQ3Ovps5CkfA"/>
+    </children>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_g3dtxkujEfCQ3Ovps5CkfA" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_g3dtx0ujEfCQ3Ovps5CkfA"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_g3dtyEujEfCQ3Ovps5CkfA" diagramKindId="org.eclipse.papyrus.uml.diagram.sequence">
+      <owner xmi:type="uml:Model" href="robotic-surgery-system.uml#_gzS_cEujEfCQ3Ovps5CkfA"/>
+    </styles>
+    <element xmi:type="uml:Interaction" href="robotic-surgery-system.uml#_g3T8wEujEfCQ3Ovps5CkfA"/>
+  </notation:Diagram>
+  <nattable:Table xmi:id="_g3h_MEujEfCQ3Ovps5CkfA" name="Generic Tree Table" currentRowAxisProvider="_g3h_M0ujEfCQ3Ovps5CkfA" currentColumnAxisProvider="_g3h_MUujEfCQ3Ovps5CkfA" tableKindId="org.eclipse.papyrus.uml.table.genericTree">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_g3jNUEujEfCQ3Ovps5CkfA" source="http://www.eclipse.org/papyrus/infra/nattable/version">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_g3jNUUujEfCQ3Ovps5CkfA" key="version" value="1.3.0"/>
+    </eAnnotations>
+    <context xmi:type="uml:Model" href="robotic-surgery-system.uml#_gzS_cEujEfCQ3Ovps5CkfA"/>
+    <owner xmi:type="uml:Model" href="robotic-surgery-system.uml#_gzS_cEujEfCQ3Ovps5CkfA"/>
+    <tableConfiguration xmi:type="nattableconfiguration:TableConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.nattable/configs/genericTreeTable.nattableconfiguration#PapyrusUMLGenericTreeTable_XMI_ID"/>
+    <columnAxisProvidersHistory xmi:type="nattableaxisprovider:SlaveObjectAxisProvider" xmi:id="_g3h_MUujEfCQ3Ovps5CkfA" description="This axis provider provides available columns according to the rows of the table (features of the object displayed on the other axis)" name="UML Feature axis provider">
+      <axis xmi:type="nattableaxis:EStructuralFeatureAxis" xmi:id="_g3h_MkujEfCQ3Ovps5CkfA">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable/configs/genericTreeTable.nattableconfiguration#_Wa4BBDzQEei_1txcmoHe_A"/>
+        <element xmi:type="ecore:EAttribute" href="http://www.eclipse.org/uml2/5.0.0/UML#//NamedElement/name"/>
+      </axis>
+    </columnAxisProvidersHistory>
+    <rowAxisProvidersHistory xmi:type="nattableaxisprovider:MasterObjectAxisProvider" xmi:id="_g3h_M0ujEfCQ3Ovps5CkfA" description="This axis provider manages the rows, according to the wanted hierarchy" name="HierarchicalRowAxisManager" disconnectSlave="true"/>
+  </nattable:Table>
+  <nattable:Table xmi:id="_g3lCgEujEfCQ3Ovps5CkfA" name="Generic Table" currentRowAxisProvider="_g3lCgkujEfCQ3Ovps5CkfA" currentColumnAxisProvider="_g3lCgUujEfCQ3Ovps5CkfA" tableKindId="org.eclipse.papyrus.uml.table.generic">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_g3mQoEujEfCQ3Ovps5CkfA" source="http://www.eclipse.org/papyrus/infra/nattable/version">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_g3mQoUujEfCQ3Ovps5CkfA" key="version" value="1.3.0"/>
+    </eAnnotations>
+    <context xmi:type="uml:Model" href="robotic-surgery-system.uml#_gzS_cEujEfCQ3Ovps5CkfA"/>
+    <owner xmi:type="uml:Model" href="robotic-surgery-system.uml#_gzS_cEujEfCQ3Ovps5CkfA"/>
+    <tableConfiguration xmi:type="nattableconfiguration:TableConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.generic.config/configs/generic.nattableconfiguration#PapyrusGenericTable_XMI_ID"/>
+    <columnAxisProvidersHistory xmi:type="nattableaxisprovider:SlaveObjectAxisProvider" xmi:id="_g3lCgUujEfCQ3Ovps5CkfA" description="This axis provider provides available columns according to the rows of the table (features of the object displayed on the other axis)" name="UML Feature axis provider"/>
+    <rowAxisProvidersHistory xmi:type="nattableaxisprovider:MasterObjectAxisProvider" xmi:id="_g3lCgkujEfCQ3Ovps5CkfA" description="This axis provider contains the object dropped by the user into the table" name="DroppedElementAxisProvider"/>
+  </nattable:Table>
+  <notation:Diagram xmi:id="_g3yd4EujEfCQ3Ovps5CkfA" type="CompositeStructure" name="Composite Structure Diagram" measurementUnit="Pixel">
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_g3yd4UujEfCQ3Ovps5CkfA" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_g3yd4kujEfCQ3Ovps5CkfA"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_g3yd40ujEfCQ3Ovps5CkfA" diagramKindId="org.eclipse.papyrus.uml.diagram.compositeStructure.root.package">
+      <owner xmi:type="uml:Model" href="robotic-surgery-system.uml#_gzS_cEujEfCQ3Ovps5CkfA"/>
+    </styles>
+    <element xmi:type="uml:Model" href="robotic-surgery-system.uml#_gzS_cEujEfCQ3Ovps5CkfA"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_g3818EujEfCQ3Ovps5CkfA" type="PapyrusUMLClassDiagram" name="Package Diagram" measurementUnit="Pixel">
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_g3818UujEfCQ3Ovps5CkfA" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_g3818kujEfCQ3Ovps5CkfA"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_g38180ujEfCQ3Ovps5CkfA" diagramKindId="org.eclipse.papyrus.uml.diagram.package">
+      <owner xmi:type="uml:Model" href="robotic-surgery-system.uml#_gzS_cEujEfCQ3Ovps5CkfA"/>
+    </styles>
+    <element xmi:type="uml:Model" href="robotic-surgery-system.uml#_gzS_cEujEfCQ3Ovps5CkfA"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_g4EKsEujEfCQ3Ovps5CkfA" type="PapyrusUMLActivityDiagram" name="Activity Diagram" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_g4EKsUujEfCQ3Ovps5CkfA" type="Activity_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_g4EKskujEfCQ3Ovps5CkfA" type="Activity_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_g4EKs0ujEfCQ3Ovps5CkfA" type="Activity_KeywordLabel"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_g4EKtEujEfCQ3Ovps5CkfA" type="Activity_ParameterCompartment">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_g4EKtUujEfCQ3Ovps5CkfA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_g4EKtkujEfCQ3Ovps5CkfA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_g4EKt0ujEfCQ3Ovps5CkfA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_g4EKuEujEfCQ3Ovps5CkfA" type="Activity_PreconditionCompartment">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_g4EKuUujEfCQ3Ovps5CkfA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_g4EKukujEfCQ3Ovps5CkfA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_g4EKu0ujEfCQ3Ovps5CkfA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_g4EKvEujEfCQ3Ovps5CkfA" type="Activity_PostconditionCompartment">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_g4EKvUujEfCQ3Ovps5CkfA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_g4EKvkujEfCQ3Ovps5CkfA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_g4EKv0ujEfCQ3Ovps5CkfA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_g4EKwEujEfCQ3Ovps5CkfA" type="Activity_ActivityNodeCompartment">
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_g4EKwUujEfCQ3Ovps5CkfA"/>
+      </children>
+      <element xmi:type="uml:Activity" href="robotic-surgery-system.uml#_g4BHYEujEfCQ3Ovps5CkfA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_g4EKwkujEfCQ3Ovps5CkfA"/>
+    </children>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_g4EKw0ujEfCQ3Ovps5CkfA" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_g4EKxEujEfCQ3Ovps5CkfA"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_g4EKxUujEfCQ3Ovps5CkfA" diagramKindId="org.eclipse.papyrus.uml.diagram.activity">
+      <owner xmi:type="uml:Model" href="robotic-surgery-system.uml#_gzS_cEujEfCQ3Ovps5CkfA"/>
+    </styles>
+    <element xmi:type="uml:Activity" href="robotic-surgery-system.uml#_g4BHYEujEfCQ3Ovps5CkfA"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_g4H1EEujEfCQ3Ovps5CkfA" type="PapyrusUMLClassDiagram" name="Class Diagram" measurementUnit="Pixel">
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_g4H1EUujEfCQ3Ovps5CkfA" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_g4H1EkujEfCQ3Ovps5CkfA"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_g4H1E0ujEfCQ3Ovps5CkfA" diagramKindId="org.eclipse.papyrus.uml.diagram.class">
+      <owner xmi:type="uml:Model" href="robotic-surgery-system.uml#_gzS_cEujEfCQ3Ovps5CkfA"/>
+    </styles>
+    <element xmi:type="uml:Model" href="robotic-surgery-system.uml#_gzS_cEujEfCQ3Ovps5CkfA"/>
+  </notation:Diagram>
+  <nattable:Table xmi:id="_g4LfcEujEfCQ3Ovps5CkfA" name="Class Tree Table" currentRowAxisProvider="_g4Lfc0ujEfCQ3Ovps5CkfA" currentColumnAxisProvider="_g4LfcUujEfCQ3Ovps5CkfA" tableKindId="org.eclipse.papyrus.uml.table.classTree">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_g4MtkEujEfCQ3Ovps5CkfA" source="http://www.eclipse.org/papyrus/infra/nattable/version">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_g4MtkUujEfCQ3Ovps5CkfA" key="version" value="1.3.0"/>
+    </eAnnotations>
+    <context xmi:type="uml:Model" href="robotic-surgery-system.uml#_gzS_cEujEfCQ3Ovps5CkfA"/>
+    <owner xmi:type="uml:Model" href="robotic-surgery-system.uml#_gzS_cEujEfCQ3Ovps5CkfA"/>
+    <tableConfiguration xmi:type="nattableconfiguration:TableConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.clazz.config/configs/class_synchronized_tree.nattableconfiguration#PapyrusClassTreeTable_XMI_ID"/>
+    <columnAxisProvidersHistory xmi:type="nattableaxisprovider:SlaveObjectAxisProvider" xmi:id="_g4LfcUujEfCQ3Ovps5CkfA" description="This axis provider provides available columns according to the rows of the table (features of the object displayed on the other axis)" name="UML Feature axis provider">
+      <axis xmi:type="nattableaxis:EStructuralFeatureAxis" xmi:id="_g4LfckujEfCQ3Ovps5CkfA">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.clazz.config/configs/class_synchronized_tree.nattableconfiguration#_UJa7yDzQEei_1txcmoHe_A"/>
+        <element xmi:type="ecore:EAttribute" href="http://www.eclipse.org/uml2/5.0.0/UML#//NamedElement/name"/>
+      </axis>
+    </columnAxisProvidersHistory>
+    <rowAxisProvidersHistory xmi:type="nattableaxisprovider:MasterObjectAxisProvider" xmi:id="_g4Lfc0ujEfCQ3Ovps5CkfA" description="This axis provider manages the rows, according to the wanted hierarchy" name="HierarchicalRowaAxisManager" disconnectSlave="true"/>
+  </nattable:Table>
+  <notation:Diagram xmi:id="_g4OiwEujEfCQ3Ovps5CkfA" type="PapyrusUMLClassDiagram" name="Inner Class Diagram" measurementUnit="Pixel">
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_g4OiwUujEfCQ3Ovps5CkfA" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_g4OiwkujEfCQ3Ovps5CkfA"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_g4Oiw0ujEfCQ3Ovps5CkfA" diagramKindId="org.eclipse.papyrus.uml.diagram.innerClass">
+      <owner xmi:type="uml:Model" href="robotic-surgery-system.uml#_gzS_cEujEfCQ3Ovps5CkfA"/>
+    </styles>
+    <element xmi:type="uml:Model" href="robotic-surgery-system.uml#_gzS_cEujEfCQ3Ovps5CkfA"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_g4WekEujEfCQ3Ovps5CkfA" type="PapyrusUMLDeploymentDiagram" name="Deployment Diagram" measurementUnit="Pixel">
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_g4WekUujEfCQ3Ovps5CkfA" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_g4WekkujEfCQ3Ovps5CkfA"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_g4Wek0ujEfCQ3Ovps5CkfA" diagramKindId="org.eclipse.papyrus.uml.diagram.deployment">
+      <owner xmi:type="uml:Model" href="robotic-surgery-system.uml#_gzS_cEujEfCQ3Ovps5CkfA"/>
+    </styles>
+    <element xmi:type="uml:Model" href="robotic-surgery-system.uml#_gzS_cEujEfCQ3Ovps5CkfA"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_g4ir0EujEfCQ3Ovps5CkfA" type="PapyrusUMLCommunicationDiagram" name="Communication Diagram" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_g4ir0UujEfCQ3Ovps5CkfA" type="Interaction_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_g4ir0kujEfCQ3Ovps5CkfA" type="Interaction_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_g4ir00ujEfCQ3Ovps5CkfA" type="Interaction_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_g4ir1EujEfCQ3Ovps5CkfA" x="50"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_g4ir1UujEfCQ3Ovps5CkfA" type="Interaction_SubfragmentCompartment">
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_g4ir1kujEfCQ3Ovps5CkfA"/>
+      </children>
+      <element xmi:type="uml:Interaction" href="robotic-surgery-system.uml#_g4bXEEujEfCQ3Ovps5CkfA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_g4ir10ujEfCQ3Ovps5CkfA"/>
+    </children>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_g4ir2EujEfCQ3Ovps5CkfA" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_g4ir2UujEfCQ3Ovps5CkfA"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_g4ir2kujEfCQ3Ovps5CkfA" diagramKindId="org.eclipse.papyrus.uml.diagram.communication">
+      <owner xmi:type="uml:Model" href="robotic-surgery-system.uml#_gzS_cEujEfCQ3Ovps5CkfA"/>
+    </styles>
+    <element xmi:type="uml:Interaction" href="robotic-surgery-system.uml#_g4bXEEujEfCQ3Ovps5CkfA"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_g47GUEujEfCQ3Ovps5CkfA" type="PapyrusUMLStateMachineDiagram" name="State Machine Diagram" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_g47tYEujEfCQ3Ovps5CkfA" type="StateMachine_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_g47tYUujEfCQ3Ovps5CkfA" type="StateMachine_NameLabel">
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_g47tYkujEfCQ3Ovps5CkfA" width="700" height="20"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_g47tY0ujEfCQ3Ovps5CkfA" type="StateMachine_RegionCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_g47tZEujEfCQ3Ovps5CkfA" type="Region_Shape">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_g47tZUujEfCQ3Ovps5CkfA" source="RegionAnnotationKey">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_g47tZkujEfCQ3Ovps5CkfA" key="RegionZoneKey" value=""/>
+          </eAnnotations>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_g47tZ0ujEfCQ3Ovps5CkfA" type="Region_SubvertexCompartment">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_g47taEujEfCQ3Ovps5CkfA"/>
+          </children>
+          <element xmi:type="uml:Region" href="robotic-surgery-system.uml#_g4zxkEujEfCQ3Ovps5CkfA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_g47taUujEfCQ3Ovps5CkfA" width="700" height="280"/>
+        </children>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_g47takujEfCQ3Ovps5CkfA" y="20" width="700" height="280"/>
+      </children>
+      <element xmi:type="uml:StateMachine" href="robotic-surgery-system.uml#_g4qnoEujEfCQ3Ovps5CkfA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_g47ta0ujEfCQ3Ovps5CkfA" x="30" y="30" width="700" height="300"/>
+    </children>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_g47tbEujEfCQ3Ovps5CkfA" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_g47tbUujEfCQ3Ovps5CkfA"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_g47tbkujEfCQ3Ovps5CkfA" diagramKindId="org.eclipse.papyrus.uml.diagram.stateMachine">
+      <owner xmi:type="uml:Model" href="robotic-surgery-system.uml#_gzS_cEujEfCQ3Ovps5CkfA"/>
+    </styles>
+    <element xmi:type="uml:StateMachine" href="robotic-surgery-system.uml#_g4qnoEujEfCQ3Ovps5CkfA"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_L6MNIEukEfCQ3Ovps5CkfA" type="UseCase" name="UseCaseDiagram" measurementUnit="Pixel">
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_L6MNIUukEfCQ3Ovps5CkfA" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_L6MNIkukEfCQ3Ovps5CkfA"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_L6MNI0ukEfCQ3Ovps5CkfA" diagramKindId="org.eclipse.papyrus.uml.diagram.useCase">
+      <owner xmi:type="uml:Model" href="robotic-surgery-system.uml#_gzS_cEujEfCQ3Ovps5CkfA"/>
+    </styles>
+    <element xmi:type="uml:Model" href="robotic-surgery-system.uml#_gzS_cEujEfCQ3Ovps5CkfA"/>
+  </notation:Diagram>
+</xmi:XMI>

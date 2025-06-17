@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_gzS_cEujEfCQ3Ovps5CkfA" name="robotic-surgery-system">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_g-LZwEujEfCQ3Ovps5CkfA">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_g2SpEEujEfCQ3Ovps5CkfA" name="Activity1"/>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_g3T8wEujEfCQ3Ovps5CkfA" name="Interaction2"/>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_g4BHYEujEfCQ3Ovps5CkfA" name="Activity3"/>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_g4bXEEujEfCQ3Ovps5CkfA" name="Interaction4"/>
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_g4qnoEujEfCQ3Ovps5CkfA" name="StateMachine5">
+    <region xmi:type="uml:Region" xmi:id="_g4zxkEujEfCQ3Ovps5CkfA" name="Region1"/>
+  </packagedElement>
+</uml:Model>
