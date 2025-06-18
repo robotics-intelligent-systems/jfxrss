@@ -11,7 +11,7 @@
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7vl7okxEEfClS-DdN2A24g"/>
       </children>
       <element xmi:type="uml:Component" href="robotic-surgery-system.uml#_7vB68ExEEfClS-DdN2A24g"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7vcKoUxEEfClS-DdN2A24g" x="220" y="100"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7vcKoUxEEfClS-DdN2A24g" x="40" y="40" width="330" height="261"/>
     </children>
     <children xmi:type="notation:Shape" xmi:id="_8qonkExEEfClS-DdN2A24g" type="Component_PackagedElementShape">
       <children xmi:type="notation:DecorationNode" xmi:id="_8qp1sExEEfClS-DdN2A24g" type="Component_NameLabel"/>
@@ -23,7 +23,7 @@
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8qqcxExEEfClS-DdN2A24g"/>
       </children>
       <element xmi:type="uml:Component" href="robotic-surgery-system.uml#_8qjvEExEEfClS-DdN2A24g"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8qonkUxEEfClS-DdN2A24g" x="480" y="100"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8qonkUxEEfClS-DdN2A24g" x="480" y="40" width="421" height="261"/>
     </children>
     <styles xmi:type="notation:StringValueStyle" xmi:id="_g1Vm0UujEfCQ3Ovps5CkfA" name="diagram_compatibility_version" stringValue="1.4.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_g1Vm0kujEfCQ3Ovps5CkfA"/>
@@ -135,7 +135,7 @@
     </styles>
     <element xmi:type="uml:Model" href="robotic-surgery-system.uml#_gzS_cEujEfCQ3Ovps5CkfA"/>
   </notation:Diagram>
-  <notation:Diagram xmi:id="_g4EKsEujEfCQ3Ovps5CkfA" type="PapyrusUMLActivityDiagram" name="Activity Diagram" measurementUnit="Pixel">
+  <notation:Diagram xmi:id="_g4EKsEujEfCQ3Ovps5CkfA" type="PapyrusUMLActivityDiagram" name="Planning Process" measurementUnit="Pixel">
     <children xmi:type="notation:Shape" xmi:id="_g4EKsUujEfCQ3Ovps5CkfA" type="Activity_Shape">
       <children xmi:type="notation:DecorationNode" xmi:id="_g4EKskujEfCQ3Ovps5CkfA" type="Activity_NameLabel"/>
       <children xmi:type="notation:DecorationNode" xmi:id="_g4EKs0ujEfCQ3Ovps5CkfA" type="Activity_KeywordLabel"/>
@@ -155,6 +155,24 @@
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_g4EKv0ujEfCQ3Ovps5CkfA"/>
       </children>
       <children xmi:type="notation:BasicCompartment" xmi:id="_g4EKwEujEfCQ3Ovps5CkfA" type="Activity_ActivityNodeCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_EHEckExIEfCU1tL8FzgSJA" type="InitialNode_Shape">
+          <children xmi:type="notation:DecorationNode" xmi:id="_EHFDoExIEfCU1tL8FzgSJA" type="InitialNode_FloatingNameLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_EHFDoUxIEfCU1tL8FzgSJA" y="15"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_EHFqsExIEfCU1tL8FzgSJA" type="InitialNode_StereotypeLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_EHFqsUxIEfCU1tL8FzgSJA" y="15"/>
+          </children>
+          <element xmi:type="uml:InitialNode" href="robotic-surgery-system.uml#_EG75sExIEfCU1tL8FzgSJA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EHEckUxIEfCU1tL8FzgSJA" x="251" y="28"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_GfXwsExIEfCU1tL8FzgSJA" type="OpaqueAction_Shape">
+          <children xmi:type="notation:DecorationNode" xmi:id="_GfXwskxIEfCU1tL8FzgSJA" type="OpaqueAction_NameLabel"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_GfYXwExIEfCU1tL8FzgSJA" type="OpaqueAction_FloatingNameLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_GfYXwUxIEfCU1tL8FzgSJA" y="15"/>
+          </children>
+          <element xmi:type="uml:OpaqueAction" href="robotic-surgery-system.uml#_GfK8YExIEfCU1tL8FzgSJA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GfdQQExIEfCU1tL8FzgSJA" x="175" y="128"/>
+        </children>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_g4EKwUujEfCQ3Ovps5CkfA"/>
       </children>
       <element xmi:type="uml:Activity" href="robotic-surgery-system.uml#_g4BHYEujEfCQ3Ovps5CkfA"/>
@@ -166,6 +184,29 @@
       <owner xmi:type="uml:Model" href="robotic-surgery-system.uml#_gzS_cEujEfCQ3Ovps5CkfA"/>
     </styles>
     <element xmi:type="uml:Activity" href="robotic-surgery-system.uml#_g4BHYEujEfCQ3Ovps5CkfA"/>
+    <edges xmi:type="notation:Connector" xmi:id="_NMkogExIEfCU1tL8FzgSJA" type="ControlFlow_Edge" source="_EHEckExIEfCU1tL8FzgSJA" target="_GfXwsExIEfCU1tL8FzgSJA">
+      <children xmi:type="notation:DecorationNode" xmi:id="_NMlPkExIEfCU1tL8FzgSJA" type="ControlFlow_NameLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_OvqL4ExIEfCU1tL8FzgSJA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_NMlPkUxIEfCU1tL8FzgSJA" x="-14" y="18"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_NMlPkkxIEfCU1tL8FzgSJA" type="ControlFlow_WeightLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_Ov4OUExIEfCU1tL8FzgSJA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_NMlPk0xIEfCU1tL8FzgSJA" x="-1" y="18"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_NMlPlExIEfCU1tL8FzgSJA" type="ControlFlow_GuardLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_OwG30ExIEfCU1tL8FzgSJA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_NMlPlUxIEfCU1tL8FzgSJA" x="13" y="18"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_NMl2oExIEfCU1tL8FzgSJA" type="ControlFlow_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_OwUTMExIEfCU1tL8FzgSJA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_NMl2oUxIEfCU1tL8FzgSJA" x="1" y="-19"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_NMkogUxIEfCU1tL8FzgSJA"/>
+      <element xmi:type="uml:ControlFlow" href="robotic-surgery-system.uml#_NMKY0ExIEfCU1tL8FzgSJA"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_NMkogkxIEfCU1tL8FzgSJA" points="[273, 73, -643984, -643984]$[280, 161, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_NOCoIExIEfCU1tL8FzgSJA" id="(1.0,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_NOCoIUxIEfCU1tL8FzgSJA" id="(0.5280898876404494,0.35)"/>
+    </edges>
   </notation:Diagram>
   <notation:Diagram xmi:id="_g4H1EEujEfCQ3Ovps5CkfA" type="PapyrusUMLClassDiagram" name="Class Diagram" measurementUnit="Pixel">
     <styles xmi:type="notation:StringValueStyle" xmi:id="_g4H1EUujEfCQ3Ovps5CkfA" name="diagram_compatibility_version" stringValue="1.4.0"/>
