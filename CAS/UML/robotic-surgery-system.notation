@@ -1,6 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:nattable="http://www.eclipse.org/papyrus/nattable/model" xmlns:nattableaxis="http://www.eclipse.org/papyrus/nattable/model/table/nattableaxis" xmlns:nattableaxisconfiguration="http://www.eclipse.org/papyrus/nattable/model/table/nattableaxisconfiguration" xmlns:nattableaxisprovider="http://www.eclipse.org/papyrus/nattable/model/table/nattableaxisprovider" xmlns:nattablecelleditor="http://www.eclipse.org/papyrus/nattable/model/table/nattablecelleditor" xmlns:nattableconfiguration="http://www.eclipse.org/papyrus/nattable/model/nattableconfiguration" xmlns:nattablestyle="http://www.eclipse.org/papyrus/nattable/model/table/nattablestyle" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/nattable/model/table/nattableaxis http://www.eclipse.org/papyrus/nattable/model#//nattableaxis http://www.eclipse.org/papyrus/nattable/model/table/nattableaxisconfiguration http://www.eclipse.org/papyrus/nattable/model#//nattableaxisconfiguration http://www.eclipse.org/papyrus/nattable/model/table/nattableaxisprovider http://www.eclipse.org/papyrus/nattable/model#//nattableaxisprovider http://www.eclipse.org/papyrus/nattable/model/table/nattablecelleditor http://www.eclipse.org/papyrus/nattable/model#//nattablecelleditor http://www.eclipse.org/papyrus/nattable/model/nattableconfiguration http://www.eclipse.org/papyrus/nattable/model#//nattableconfiguration http://www.eclipse.org/papyrus/nattable/model/table/nattablestyle http://www.eclipse.org/papyrus/nattable/model#//nattablestyle">
   <notation:Diagram xmi:id="_g1Vm0EujEfCQ3Ovps5CkfA" type="PapyrusUMLComponentDiagram" name="Component Diagram" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_7vcKoExEEfClS-DdN2A24g" type="Component_PackagedElementShape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_7vlUkExEEfClS-DdN2A24g" type="Component_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_7vlUkUxEEfClS-DdN2A24g" type="Component_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_7vlUkkxEEfClS-DdN2A24g" y="15"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_7vl7oExEEfClS-DdN2A24g" type="Component_StructureCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_7vl7oUxEEfClS-DdN2A24g"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7vl7okxEEfClS-DdN2A24g"/>
+      </children>
+      <element xmi:type="uml:Component" href="robotic-surgery-system.uml#_7vB68ExEEfClS-DdN2A24g"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7vcKoUxEEfClS-DdN2A24g" x="220" y="100"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_8qonkExEEfClS-DdN2A24g" type="Component_PackagedElementShape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_8qp1sExEEfClS-DdN2A24g" type="Component_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_8qqcwExEEfClS-DdN2A24g" type="Component_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_8qqcwUxEEfClS-DdN2A24g" y="15"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_8qqcwkxEEfClS-DdN2A24g" type="Component_StructureCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_8qqcw0xEEfClS-DdN2A24g"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8qqcxExEEfClS-DdN2A24g"/>
+      </children>
+      <element xmi:type="uml:Component" href="robotic-surgery-system.uml#_8qjvEExEEfClS-DdN2A24g"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8qonkUxEEfClS-DdN2A24g" x="480" y="100"/>
+    </children>
     <styles xmi:type="notation:StringValueStyle" xmi:id="_g1Vm0UujEfCQ3Ovps5CkfA" name="diagram_compatibility_version" stringValue="1.4.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_g1Vm0kujEfCQ3Ovps5CkfA"/>
     <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_g1Vm00ujEfCQ3Ovps5CkfA" diagramKindId="org.eclipse.papyrus.uml.diagram.component.root.package">

@@ -10,4 +10,6 @@
   <packagedElement xmi:type="uml:StateMachine" xmi:id="_g4qnoEujEfCQ3Ovps5CkfA" name="StateMachine5">
     <region xmi:type="uml:Region" xmi:id="_g4zxkEujEfCQ3Ovps5CkfA" name="Region1"/>
   </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_7vB68ExEEfClS-DdN2A24g" name="Planning System"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_8qjvEExEEfClS-DdN2A24g" name="Control System"/>
 </uml:Model>
