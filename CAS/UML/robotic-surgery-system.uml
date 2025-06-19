@@ -5,10 +5,12 @@
   </packageImport>
   <packagedElement xmi:type="uml:Activity" xmi:id="_g2SpEEujEfCQ3Ovps5CkfA" name="Activity1"/>
   <packagedElement xmi:type="uml:Interaction" xmi:id="_g3T8wEujEfCQ3Ovps5CkfA" name="Interaction2"/>
-  <packagedElement xmi:type="uml:Activity" xmi:id="_g4BHYEujEfCQ3Ovps5CkfA" name="Activity3" node="_EG75sExIEfCU1tL8FzgSJA _GfK8YExIEfCU1tL8FzgSJA">
+  <packagedElement xmi:type="uml:Activity" xmi:id="_g4BHYEujEfCQ3Ovps5CkfA" name="Activity3" node="_EG75sExIEfCU1tL8FzgSJA _GfK8YExIEfCU1tL8FzgSJA _ObY8sEyjEfCA4fsuEb0pJQ">
     <edge xmi:type="uml:ControlFlow" xmi:id="_NMKY0ExIEfCU1tL8FzgSJA" target="_GfK8YExIEfCU1tL8FzgSJA" source="_EG75sExIEfCU1tL8FzgSJA"/>
-    <node xmi:type="uml:InitialNode" xmi:id="_EG75sExIEfCU1tL8FzgSJA" name="InitialNode1" outgoing="_NMKY0ExIEfCU1tL8FzgSJA"/>
-    <node xmi:type="uml:OpaqueAction" xmi:id="_GfK8YExIEfCU1tL8FzgSJA" name="Image import and visualization" incoming="_NMKY0ExIEfCU1tL8FzgSJA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_WBAqQEyjEfCA4fsuEb0pJQ" target="_ObY8sEyjEfCA4fsuEb0pJQ" source="_GfK8YExIEfCU1tL8FzgSJA"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_EG75sExIEfCU1tL8FzgSJA" name="Pre-operative" outgoing="_NMKY0ExIEfCU1tL8FzgSJA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_GfK8YExIEfCU1tL8FzgSJA" name="Image import and visualization" incoming="_NMKY0ExIEfCU1tL8FzgSJA" outgoing="_WBAqQEyjEfCA4fsuEb0pJQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_ObY8sEyjEfCA4fsuEb0pJQ" name="Multiplanar reconstruction" incoming="_WBAqQEyjEfCA4fsuEb0pJQ"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Interaction" xmi:id="_g4bXEEujEfCQ3Ovps5CkfA" name="Interaction4"/>
   <packagedElement xmi:type="uml:StateMachine" xmi:id="_g4qnoEujEfCQ3Ovps5CkfA" name="StateMachine5">
