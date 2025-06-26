@@ -181,6 +181,14 @@
           <element xmi:type="uml:OpaqueAction" href="robotic-surgery-system.uml#_ObY8sEyjEfCA4fsuEb0pJQ"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ob8WUEyjEfCA4fsuEb0pJQ" x="195" y="248"/>
         </children>
+        <children xmi:type="notation:Shape" xmi:id="_YCHGcFIhEfCK-d1Mv23AVQ" type="OpaqueAction_Shape">
+          <children xmi:type="notation:DecorationNode" xmi:id="_YCI7oFIhEfCK-d1Mv23AVQ" type="OpaqueAction_NameLabel"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_YCJisFIhEfCK-d1Mv23AVQ" type="OpaqueAction_FloatingNameLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_YCJisVIhEfCK-d1Mv23AVQ" y="15"/>
+          </children>
+          <element xmi:type="uml:OpaqueAction" href="robotic-surgery-system.uml#_YBNHgFIhEfCK-d1Mv23AVQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YCN0IFIhEfCK-d1Mv23AVQ" x="195" y="348"/>
+        </children>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_g4EKwUujEfCQ3Ovps5CkfA"/>
       </children>
       <element xmi:type="uml:Activity" href="robotic-surgery-system.uml#_g4BHYEujEfCQ3Ovps5CkfA"/>
@@ -217,15 +225,19 @@
     </edges>
     <edges xmi:type="notation:Connector" xmi:id="_WBhAkEyjEfCA4fsuEb0pJQ" type="ControlFlow_Edge" source="_GfXwsExIEfCU1tL8FzgSJA" target="_Ob4r8EyjEfCA4fsuEb0pJQ">
       <children xmi:type="notation:DecorationNode" xmi:id="_WBlSAEyjEfCA4fsuEb0pJQ" type="ControlFlow_NameLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_WBlSAUyjEfCA4fsuEb0pJQ" y="20"/>
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_bOe70FIhEfCK-d1Mv23AVQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_WBlSAUyjEfCA4fsuEb0pJQ" x="-12" y="20"/>
       </children>
       <children xmi:type="notation:DecorationNode" xmi:id="_WBl5EEyjEfCA4fsuEb0pJQ" type="ControlFlow_WeightLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_bOzE4FIhEfCK-d1Mv23AVQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_WBl5EUyjEfCA4fsuEb0pJQ" y="20"/>
       </children>
       <children xmi:type="notation:DecorationNode" xmi:id="_WBl5EkyjEfCA4fsuEb0pJQ" type="ControlFlow_GuardLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_WBl5E0yjEfCA4fsuEb0pJQ" y="20"/>
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_bPGm4FIhEfCK-d1Mv23AVQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_WBl5E0yjEfCA4fsuEb0pJQ" x="12" y="20"/>
       </children>
       <children xmi:type="notation:DecorationNode" xmi:id="_WBl5FEyjEfCA4fsuEb0pJQ" type="ControlFlow_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_bPYTsFIhEfCK-d1Mv23AVQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_WBl5FUyjEfCA4fsuEb0pJQ" y="-20"/>
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_WBhAkUyjEfCA4fsuEb0pJQ"/>
@@ -233,6 +245,25 @@
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_WBhAkkyjEfCA4fsuEb0pJQ" points="[0, 0, 0, -98]$[0, 80, 0, -18]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_WOEO0EyjEfCA4fsuEb0pJQ" id="(0.5786516853932584,1.0)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_WOEO0UyjEfCA4fsuEb0pJQ" id="(0.532051282051282,0.45)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_iGzegFIhEfCK-d1Mv23AVQ" type="ControlFlow_Edge" source="_Ob4r8EyjEfCA4fsuEb0pJQ" target="_YCHGcFIhEfCK-d1Mv23AVQ">
+      <children xmi:type="notation:DecorationNode" xmi:id="_iG3v8FIhEfCK-d1Mv23AVQ" type="ControlFlow_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_iG3v8VIhEfCK-d1Mv23AVQ" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_iG4XAFIhEfCK-d1Mv23AVQ" type="ControlFlow_WeightLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_iG4XAVIhEfCK-d1Mv23AVQ" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_iG4XAlIhEfCK-d1Mv23AVQ" type="ControlFlow_GuardLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_iG4XA1IhEfCK-d1Mv23AVQ" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_iG4XBFIhEfCK-d1Mv23AVQ" type="ControlFlow_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_iG4XBVIhEfCK-d1Mv23AVQ" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_iGzegVIhEfCK-d1Mv23AVQ"/>
+      <element xmi:type="uml:ControlFlow" href="robotic-surgery-system.uml#_iGac8FIhEfCK-d1Mv23AVQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_iGzeglIhEfCK-d1Mv23AVQ" points="[0, 0, -1, -68]$[1, 60, 0, -8]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_iYHQ8FIhEfCK-d1Mv23AVQ" id="(0.5384615384615384,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_iYH4AFIhEfCK-d1Mv23AVQ" id="(0.4827586206896552,0.0)"/>
     </edges>
   </notation:Diagram>
   <notation:Diagram xmi:id="_g4H1EEujEfCQ3Ovps5CkfA" type="PapyrusUMLClassDiagram" name="Class Diagram" measurementUnit="Pixel">
